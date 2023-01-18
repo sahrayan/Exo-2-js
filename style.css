@@ -1,8 +1,8 @@
-*{
+#board
+{
     display: flex;
     flex-wrap: wrap;
 }
-
 .box
 {
     width: 75px;
@@ -15,10 +15,4 @@
     margin: 5px;
     animation: appear 1s;
     border-radius: 6px;
-}
-
-.box-clicked
-{
-    background-color: #ccc;
-    color: #aaa;
 }
